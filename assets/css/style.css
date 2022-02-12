@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     /*comment*/
     border: 'Helvetica', 'Arial', sans-serif;
@@ -71,5 +70,30 @@ footer a {
 }
 
 section {
+    padding:60px;
+}
+
+/* Hero Style Start */
+.hero {
     padding: 60px;
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* Hero Style End */
+
+.hero-form {
+    background-color: #fce138;
+    color: #024e76;
+    padding: 20px;
+    width: 500px;
+    /*border-style: solid;
+    border-width: 3px;
+    border-color: #024e76;*/
+    border: 3px solid #024e76;
+    position: absolute;
+    bottom: 120px;
+  right: 140px;
 }
